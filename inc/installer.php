@@ -60,12 +60,12 @@ function omf_register_required_plugins() {
 	$plugins = array(
 
 		// This is an example of how to include a plugin bundled with a theme.
-		// array(
-		// 	'name'               => 'OMF Elementor Addon',
-		// 	'slug'               => 'omf-elementor',
-		// 	'source'             => get_stylesheet_directory() . '/plugins/omf-elementor.zip', 
-		// 	'required'           => true,
-		// ),
+		array(
+			'name'               => 'OMF Elementor Addon',
+			'slug'               => 'omf-elementor',
+			'source'             => get_stylesheet_directory() . '/plugins/omf-elementor.zip', 
+			'required'           => true,
+		),
 
 		// This is an example of how to include a plugin from the WordPress Plugin Repository.
 		array(
