@@ -528,9 +528,7 @@ ul.pagination li span {
     margin: auto;
 }
 .not-found-content .btn {
-    color: var(--site_accent_blue);
     max-width: 530px;
     margin: auto;
-    border: 2px solid var(--site_accent_blue);
     margin-top: 40px;
 }
